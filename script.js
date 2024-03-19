@@ -7,6 +7,13 @@
         document.getElementById('display').value = ''
     }
 
+    function calculatePercentage() {
+        var expression = document.getElementById('display').value;
+        var result = eval(expression);
+        var percentResult = result / 100;
+        document.getElementById('display').value = percentResult;
+    }    
+
     function calculate() {
         var expression = document.getElementById('display').value
         var result = eval(expression)
