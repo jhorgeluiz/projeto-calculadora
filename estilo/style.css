@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
 
-    
+
+    * {
+        margin: auto;
+    }
 
     body {
-        margin: 2px;
+        
         min-width: 342px;
         max-width: 570px;
     }
@@ -42,9 +45,9 @@
 
     article > input {
         background-color: rgb(75, 72, 72);
-        position: relative;
-        left: 20px;
-        width: 60px;
+        
+        
+        width: 70px;
         margin: 2px;
         border-style: none;
         border-radius: 50px;
@@ -65,7 +68,7 @@
         border-style: solid;
         font-size: 60px;
         margin-bottom: 7px;
-        width: 310px;
+        width: 306px;
         height: 180px;
     }
      
