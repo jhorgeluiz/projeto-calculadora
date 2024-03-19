@@ -12,9 +12,10 @@
     .calculadora {
         background-color: rgb(0, 0, 0);
         box-shadow: .5px .5px 5px 1px black;
+        margin-top: 10px;
         padding: 2px;
-        width: 178px;
-        height: 285px;
+        width: 95%;
+        height: 530px;
     }
 
     input {
@@ -22,8 +23,8 @@
         color: white;
         font-size: 20px;
         font-weight: bolder;
-        width: 37px;
-        height: 35.2px;
+        width: 74px;
+        height: 67px;
         cursor: pointer;
     }
 
@@ -61,9 +62,10 @@
     .display {
         background-color: rgba(0, 0, 0, 0.021);
         border-style: solid;
+        font-size: 60px;
         margin-bottom: 7px;
-        width: 166px;
-        height: 70px;
+        width: 315px;
+        height: 150px;
     }
      
     
