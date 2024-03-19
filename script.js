@@ -10,7 +10,7 @@
     function calculatePercentage() {
         var expression = document.getElementById('display').value;
         var result = eval(expression);
-        var percentResult = result / 100;
+        var percentResult = result / 100
         document.getElementById('display').value = percentResult;
     }    
 
