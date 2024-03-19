@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 
-    * {
-        
-    }
+    
 
     body {
         margin: 2px;
@@ -44,8 +42,9 @@
 
     article > input {
         background-color: rgb(75, 72, 72);
-        
-        width: 70px;
+        position: relative;
+        left: 20px;
+        width: 60px;
         margin: 2px;
         border-style: none;
         border-radius: 50px;
