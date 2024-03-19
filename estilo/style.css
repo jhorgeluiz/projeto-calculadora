@@ -1,13 +1,10 @@
 @charset "UTF-8";
 
-
-
     * {
-        margin:0;
+        margin:auto;
     }
 
     body {
-        
         min-width: 342px;
         max-width: 570px;
     }
@@ -21,6 +18,7 @@
 
     .c {
         color: red;
+        font-size: 30px;
     }
 
     .verde {
@@ -48,21 +46,17 @@
 
     article > input:hover {
         background-color: aqua;
-
-        transition-duration: .5s;
-    }
-
-    input::after {
-        background-color: rgb(132, 138, 138);
+        transition-duration: .8s;
     }
 
     .display {
         background-color: rgba(0, 0, 0, 0.021);
+        color: white;
         border-style: solid;
         font-size: 60px;
         margin-bottom: 7px;
         width: 367px;
-        height: 180px;
+        height: 185px;
     }
      
     
