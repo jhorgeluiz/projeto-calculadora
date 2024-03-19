@@ -9,6 +9,7 @@
         max-width: 570px;
     }
     .calculadora {
+        margin: 20px;
         background-color: rgb(0, 0, 0);
         box-shadow: .5px .5px 5px 1px black;
         padding: 2px;
