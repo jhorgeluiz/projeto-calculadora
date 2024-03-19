@@ -2,10 +2,11 @@
 
 
     * {
-        margin: auto;
+        
     }
 
     body {
+        margin: 2px;
         min-width: 342px;
         max-width: 570px;
     }
@@ -13,7 +14,7 @@
         background-color: rgb(0, 0, 0);
         box-shadow: .5px .5px 5px 1px black;
         padding: 2px;
-        width: 95%;
+        width: 315px;
         height: 600px;
     }
 
@@ -22,7 +23,7 @@
         color: white;
         font-size: 20px;
         font-weight: bolder;
-        width: 114px;
+        width: 105px;
         height: 77px;
         cursor: pointer;
     }
@@ -43,6 +44,8 @@
 
     article > input {
         background-color: rgb(75, 72, 72);
+        
+        width: 70px;
         margin: 2px;
         border-style: none;
         border-radius: 50px;
@@ -63,7 +66,7 @@
         border-style: solid;
         font-size: 60px;
         margin-bottom: 7px;
-        width: 478px;
+        width: 310px;
         height: 180px;
     }
      
