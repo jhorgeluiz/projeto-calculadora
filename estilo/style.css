@@ -1,9 +1,13 @@
 @charset "UTF-8";
 
 
+    * {
+        margin: auto;
+    }
+
     body {
-        padding: 100px;
-        
+        min-width: 342px;
+        max-width: 570px;
     }
     .calculadora {
         background-color: rgb(0, 0, 0);
