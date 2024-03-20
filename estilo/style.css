@@ -9,12 +9,12 @@
         max-width: 570px;
     }
     .calculadora {
-        margin: 20px;
         background-color: rgb(0, 0, 0);
         box-shadow: .5px .5px 5px 1px black;
+        margin-top: 10px;
         padding: 2px;
-        width: 377px;
-        height: 720px;
+        width: 318px;
+        height: 520px;
     }
 
     .c {
@@ -35,8 +35,10 @@
     article > input {
         background-color: rgb(75, 72, 72);
         color: white;
-        width: 87px;
-        height: 97px;
+        position: relative;
+        left: 5px;
+        width: 70px;
+        height: 58px;
         margin: 2px;
         font-size: 20px;
         font-weight: bolder;
@@ -55,8 +57,9 @@
         color: white;
         border-style: solid;
         font-size: 60px;
+        margin: 5px;
         margin-bottom: 7px;
-        width: 367px;
+        width: 300px;
         height: 185px;
     }
      
