@@ -20,5 +20,14 @@
         document.getElementById('display').value = result
     }
 
+    function apagarDigito() {
+        var display = document.getElementById('display')
+        var value = display.value
+
+        if (value.length > 0) {
+            display.value = value.substring(0, value.length - 1)
+        }
+    }
+
     
     

@@ -47,6 +47,20 @@
         border-radius: 50px;
         cursor: pointer;
     }
+    button {
+        background-color: rgb(75, 72, 72);
+        color: white;
+        position: relative;
+        left: 5px;
+        width: 70px;
+        height: 58px;
+        margin: 2px;
+        font-size: 20px;
+        font-weight: bolder;
+        border-style: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
 
     article > input:hover {
         background-color: aqua;
@@ -62,6 +76,10 @@
         margin-bottom: 7px;
         width: 300px;
         height: 185px;
+    }
+
+    img {
+        margin-top: 5px;
     }
      
     
